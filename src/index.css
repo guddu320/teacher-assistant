@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --color-stage-cream: #fffef5;
+  --color-stage-paper: #fffbf0;
+  --color-stage-ink: #3d3a35;
+  --color-stage-muted: #7a756c;
+  --color-stage-line: #e8e4d9;
+  --color-stage-amber: #d97706;
+  --color-stage-amber-soft: #fef3c7;
+}
+
+html {
+  @apply antialiased;
+}
+
+body {
+  @apply m-0 min-h-svh bg-stage-cream text-stage-ink font-sans;
+}
+
+#root {
+  @apply min-h-svh;
+}

@@ -1,0 +1,138 @@
+{
+  "classes": [
+    {
+      "id": "c-algebra",
+      "name": "Algebra I",
+      "subject": "Mathematics",
+      "studentIds": ["s-1", "s-2", "s-3"],
+      "notes": [
+        {
+          "id": "cn-1",
+          "content": "Unit 4 quiz moved to Thursday — remind period3.",
+          "timestamp": "2026-04-12T10:00:00.000Z",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "c-biology",
+      "name": "Biology",
+      "subject": "Science",
+      "studentIds": ["s-2", "s-4", "s-5"],
+      "notes": []
+    },
+    {
+      "id": "c-english",
+      "name": "English 10",
+      "subject": "Language Arts",
+      "studentIds": ["s-1", "s-4", "s-6"],
+      "notes": []
+    }
+  ],
+  "students": [
+    {
+      "id": "s-1",
+      "name": "Avery Chen",
+      "notes": [
+        {
+          "id": "n-1",
+          "content": "Strong on written analysis; prefers front-row seating.",
+          "timestamp": "2026-04-10T14:00:00.000Z",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "s-2",
+      "name": "Jordan Lee",
+      "notes": []
+    },
+    {
+      "id": "s-3",
+      "name": "Sam Rivera",
+      "notes": [
+        {
+          "id": "n-2",
+          "content": "Check-in after unit test — offer retake scaffolding.",
+          "timestamp": "2026-04-08T09:30:00.000Z",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "s-4",
+      "name": "Riley Patel",
+      "notes": []
+    },
+    {
+      "id": "s-5",
+      "name": "Quinn Brooks",
+      "notes": []
+    },
+    {
+      "id": "s-6",
+      "name": "Morgan Diaz",
+      "notes": []
+    }
+  ],
+  "schedule": {
+    "permanent": [
+      [
+        { "classId": "c-algebra" },
+        { "classId": null },
+        { "classId": "c-biology" },
+        { "classId": "c-biology" },
+        { "classId": null },
+        { "classId": "c-english" },
+        { "classId": null },
+        { "classId": null },
+        { "classId": null }
+      ],
+      [
+        { "classId": null },
+        { "classId": "c-algebra" },
+        { "classId": "c-algebra" },
+        { "classId": null },
+        { "classId": "c-english" },
+        { "classId": null },
+        { "classId": "c-biology" },
+        { "classId": null },
+        { "classId": null }
+      ],
+      [
+        { "classId": "c-english" },
+        { "classId": null },
+        { "classId": null },
+        { "classId": "c-algebra" },
+        { "classId": "c-biology" },
+        { "classId": null },
+        { "classId": null },
+        { "classId": null },
+        { "classId": null }
+      ],
+      [
+        { "classId": "c-biology" },
+        { "classId": "c-english" },
+        { "classId": null },
+        { "classId": null },
+        { "classId": "c-algebra" },
+        { "classId": null },
+        { "classId": null },
+        { "classId": null },
+        { "classId": null }
+      ],
+      [
+        { "classId": null },
+        { "classId": null },
+        { "classId": "c-english" },
+        { "classId": "c-algebra" },
+        { "classId": null },
+        { "classId": null },
+        { "classId": "c-biology" },
+        { "classId": null },
+        { "classId": null }
+      ]
+    ],
+    "dailyOverrides": {}
+  }
+}
